@@ -1,0 +1,93 @@
+	title	category_id	address	lat	lon	distance
+25	Red Blossom Tea Company	food-drink	831 Grant Ave<br/>San Francisco, CA 94108	37.79473	-122.40653	72
+26	Chinatown Kite Shop	shop	717 Grant Ave<br/>San Francisco, CA 94108	37.79365	-122.40636	83
+0	Clarion Music Center	shop	816 Sacramento St<br/>San Francisco, CA 94108	37.793474	-122.406479	93
+1	Golden Star Vietnamese Restaurant	restaurant	11 Walter U Lum Pl<br/>San Francisco, CA 94108	37.79453	-122.40579	112
+2	Buddha Lounge	bar-pub	901 Grant Ave<br/>San Francisco, CA 94108	37.79527	-122.40666	123
+3	China Bazaar	shop	667 Grant Ave<br/>San Francisco, CA 94108	37.79319	-122.40622	132
+4	Icafe San Francisco	food-drink	57 Walter U Lum Pl<br/>San Francisco, CA 94108	37.79508	-122.40594	135
+5	Li Po Cocktail Lounge	going-out	916 Grant Ave<br/>San Francisco, CA 94108	37.79536	-122.40632	142
+54	Golden Gate Fortune Cookies Co	sights-museums	56 Ross Aly<br/>San Francisco, CA 94108	37.79574	-122.40739	175
+65	Good Mong Kok Bakery	restaurant	1039 Stockton St<br/>San Francisco, CA 94108	37.79554	-122.40848	198
+69	Chinese Culture Ctr-San Francisco	museum	750 Kearny St<br/>San Francisco, CA 94108	37.79503	-122.40488	208
+6	Z&Y Restaurant	restaurant	655 Jackson St<br/>San Francisco, CA 94133	37.796	-122.406	219
+7	Jai Yun	restaurant	680 Clay St<br/>San Francisco, CA 94111	37.79465	-122.40453	223
+8	Blue Bottle Coffee	restaurant	628 California St<br/>San Francisco, CA 94108	37.79308	-122.40487	225
+9	Great Eastern Restaurant	restaurant	649 Jackson St<br/>San Francisco, CA 94133	37.79609	-122.40594	230
+10	Ez5	bar-pub	684 Commercial St<br/>San Francisco, CA 94111	37.79426	-122.40434	234
+11	Alfred's Steakhouse	restaurant	659 Merchant St<br/>San Francisco, CA 94111	37.79483	-122.40445	235
+12	Pot&Noodle	restaurant	650 Jackson St<br/>San Francisco, CA 94133	37.796231	-122.406057	241
+13	Schilling & Co. Cafe	restaurant	667 Commercial St<br/>San Francisco, CA 94111	37.794	-122.40412	254
+14	City View Restaurant	restaurant	662 Commercial St<br/>San Francisco, CA 94111	37.7943	-122.40409	256
+15	Bund Shanghai Restaurant	restaurant	640 Jackson St<br/>San Francisco, CA 94133	37.79636	-122.40597	257
+16	750 Restaurant & Bar	restaurant	750 Kearny St<br/>San Francisco, CA 94108	37.79514	-122.40431	258
+90	Parallel 37	restaurant	600 Stockton St<br/>San Francisco, CA 94108	37.79184	-122.40682	263
+17	Hotel San Francisco	theatre-music-culture	653 Commercial St<br/>San Francisco, CA 94111	37.79397	-122.40389	274
+18	Z & Y Bistro	restaurant	606 Jackson St<br/>San Francisco, CA 94133	37.79636	-122.40545	276
+19	House of Nanking	restaurant	919 Kearny St<br/>San Francisco, CA 94133	37.79643	-122.40538	286
+21	Chong Qing Xiao Mian	restaurant	915 Kearny St<br/>San Francisco, CA 94133	37.79643	-122.40533	288
+20	Tandoori Mahal	restaurant	941 Kearny St<br/>San Francisco, CA 94133	37.796442	-122.405354	288
+22	Palio	restaurant	640 Sacramento St<br/>San Francisco, CA 94111	37.79392	-122.40368	293
+23	Rock Japanese Cuisine	restaurant	614 Pine St<br/>San Francisco, CA 94104	37.79164	-122.40598	298
+24	Comstock Saloon	restaurant	155 Columbus Ave<br/>San Francisco, CA 94133	37.796645	-122.405088	320
+91	Palio Cafe	snacks-fast-food	505 Montgomery St<br/>San Francisco, CA 94111	37.79406	-122.40321	333
+28	Eden & Eden	clothing-accessories-shop	560 Jackson St<br/>San Francisco, CA 94133	37.796428	-122.404437	335
+29	Tonga Room & Hurricane Bar	restaurant	950 Mason St<br/>San Francisco, CA 94108	37.79242	-122.41009	336
+27	The Fairmont San Francisco	hotel	950 Mason St<br/>San Francisco, CA 94108	37.79242	-122.41009	336
+30	Docs Lab	restaurant	124 Columbus Ave<br/>San Francisco, CA 94133	37.79667	-122.40467	343
+31	Kan Ramen	restaurant	229 Columbus Ave<br/>San Francisco, CA 94133	37.79723	-122.40612	346
+32	Bob's Steak & Chophouse	restaurant	500 California St<br/>San Francisco, CA 94104	37.7931	-122.40317	358
+33	Vesuvio Cafe	bar-pub	255 Columbus Ave<br/>San Francisco, CA 94133	37.797425	-122.406238	365
+34	Réveille Coffee	restaurant	200 Columbus Ave<br/>San Francisco, CA 94133	37.797261	-122.405444	367
+35	Brioche Bakery	coffee-tea	210 Columbus Ave<br/>San Francisco, CA 94133	37.797313	-122.405527	370
+37	The Station SF	restaurant	596 Pacific Ave<br/>San Francisco, CA 94133	37.79723	-122.40515	374
+38	Aurea	restaurant	905 California St<br/>San Francisco, CA 94108	37.79149	-122.40954	375
+36	Stanford Court Hotel	hotel	905 California St<br/>San Francisco, CA 94108	37.79149	-122.40954	375
+39	Roka Bar	restaurant	801 Montgomery St<br/>San Francisco, CA 94133	37.79653	-122.40385	379
+40	City Lights	bookshop	261 Columbus Ave<br/>San Francisco, CA 94133	37.7976	-122.40657	380
+41	Tosca Cafe	restaurant	242 Columbus Ave<br/>San Francisco, CA 94133	37.79754	-122.40593	383
+42	Bocadillos	restaurant	710 Montgomery St<br/>San Francisco, CA 94111	37.79589	-122.40315	387
+43	Palladium	dance-night-club	1031 Kearny St<br/>San Francisco, CA 94133	37.79758	-122.40573	392
+44	Baladie Gourmet Cafe	restaurant	337 Kearny St<br/>San Francisco, CA 94108	37.79132	-122.40435	396
+45	Specs' Twelve Adler Museum Cafe	restaurant	12 William Saroyan Pl<br/>San Francisco, CA 94133	37.79772	-122.40607	400
+46	E Tutto Qua	restaurant	270 Columbus Ave<br/>San Francisco, CA 94133	37.79776	-122.40625	401
+48	Taverna Aventine	restaurant	582 Washington St<br/>San Francisco, CA 94111	37.79573	-122.40284	403
+47	Lusty Lady Theater	cinema	1033 Kearny St<br/>San Francisco, CA 94133	37.797653	-122.405597	403
+49	Brindisi Cucina di Mare	restaurant	88 Belden Pl<br/>San Francisco, CA 94104	37.79157	-122.40375	409
+50	Urban Curry	restaurant	523 Broadway<br/>San Francisco, CA 94133	37.79777	-122.40587	409
+51	Wayfare Tavern	restaurant	558 Sacramento St<br/>San Francisco, CA 94111	37.794	-122.40232	412
+52	Sequoia	theatre-music-culture	558 Sacramento St<br/>San Francisco, CA 94111	37.794	-122.40232	412
+53	Top of the Mark	restaurant	999 California St<br/>San Francisco, CA 94108	37.7914	-122.41024	422
+55	New Orleans Room	theatre-music-culture	Mason St<br/>San Francisco, CA 94108	37.79183	-122.41079	425
+56	Yuet Lee	restaurant	1300 Stockton St<br/>San Francisco, CA 94133	37.79786	-122.40843	426
+57	Toy Soldier	restaurant	52 Belden Pl<br/>San Francisco, CA 94104	37.79142	-122.40365	427
+58	San Francisco Sports Grill & Bar	restaurant	648 Bush St<br/>San Francisco, CA 94108	37.79041	-122.40794	429
+61	Stinking Rose	restaurant	325 Columbus Ave<br/>San Francisco, CA 94133	37.79806	-122.4075	431
+60	China Live	restaurant	644 Broadway<br/>San Francisco, CA 94133	37.79802	-122.40785	431
+59	Cold Drinks Bar	bar-pub	644 Broadway<br/>San Francisco, CA 94133	37.79802	-122.40785	431
+62	May Fair	restaurant	385 Grant Ave<br/>San Francisco, CA 94108	37.790364	-122.405677	442
+64	Betty Lou's Seafood & Grill	restaurant	318 Columbus Ave<br/>San Francisco, CA 94133	37.7982	-122.40675	445
+63	Tunnel Top	dance-night-club	601 Bush St<br/>San Francisco, CA 94108	37.79021	-122.40731	445
+66	Sushirrito	restaurant	475 Sansome St<br/>San Francisco, CA 94111	37.79456	-122.40192	448
+67	15 Romolo	restaurant	15 Romolo Pl<br/>San Francisco, CA 94133	37.79825	-122.40631	454
+68	Cafe de la Presse	restaurant	352 Grant Ave<br/>San Francisco, CA 94108	37.79033	-122.4053	456
+70	Naked Lunch	restaurant	504 Broadway<br/>San Francisco, CA 94133	37.79819	-122.40569	458
+71	Irish Bank Bar & Restaurant	restaurant	10 Mark Ln<br/>San Francisco, CA 94108	37.79041	-122.404882	461
+72	Lululemon	clothing-accessories-shop	327 Grant Ave<br/>San Francisco, CA 94108	37.79015	-122.40587	461
+73	Bix	restaurant	56 Gold St<br/>San Francisco, CA 94133	37.79678	-122.40289	461
+74	Pesce E Riso	restaurant	1224 Grant Ave<br/>San Francisco, CA 94133	37.79835	-122.40693	462
+75	Hue Lounge and Nightclub	dance-night-club	447 Broadway<br/>San Francisco, CA 94133	37.79796	-122.40476	462
+76	The Barrel Room	restaurant	415 Sansome St<br/>San Francisco, CA 94111	37.79426	-122.40164	471
+77	JoS. A. BANK	clothing-accessories-shop	390 Sutter St<br/>San Francisco, CA 94108	37.78998	-122.40643	472
+78	Sons & Daughters	restaurant	708 Bush St<br/>San Francisco, CA 94108	37.790263	-122.409056	474
+79	Eight Tables by George Chen	restaurant	8 Kenneth Rexroth Pl<br/>San Francisco, CA 94133	37.798461	-122.407666	477
+80	Caffe Trieste	coffee-tea	601 Vallejo St<br/>San Francisco, CA 94133	37.79852	-122.40739	482
+81	Saloon	theatre-music-culture	1232 Grant Ave<br/>San Francisco, CA 94133	37.79855	-122.40704	484
+82	Mikaku Restaurant	restaurant	323 Grant Ave<br/>San Francisco, CA 94108	37.78996	-122.4057	485
+83	Capo's Chicago Pizza	restaurant	641 Vallejo St<br/>San Francisco, CA 94133	37.79843	-122.40842	487
+84	Cotogna	restaurant	490 Pacific Ave<br/>San Francisco, CA 94133	37.7975	-122.40336	487
+85	Quince	restaurant	470 Pacific Ave<br/>San Francisco, CA 94133	37.7975	-122.40336	487
+86	Burritt Room & Tavern	restaurant	417 Stockton St<br/>San Francisco, CA 94108	37.7898	-122.40738	490
+87	Credo	restaurant	360 Pine St<br/>San Francisco, CA 94104	37.79217	-122.40202	492
+88	E&O Asian Kitchen	restaurant	314 Sutter St<br/>San Francisco, CA 94108	37.78983	-122.40586	496
+89	Tamarind Hall	restaurant	1268 Grant Ave<br/>San Francisco, CA 94133	37.79868	-122.407	498

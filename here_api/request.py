@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 
 
-def request_api(URL, apiKey, max_items=100):
+def request_api(URL, apiKey, max_items):
     """Make HTTP Get request to Here Places API.
 
     Example:

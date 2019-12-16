@@ -1,10 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#%%
-import os
-os.chdir('/Users/kota.matsuo/github/random/here_api')
-
 from here_api import HerePlacesAPI # For generating URLs
 from here_api import request_api # For making HTTP requests using the URLs
 
@@ -12,7 +8,7 @@ from here_api import request_api # For making HTTP requests using the URLs
 apiKey = ''
 
 ### Generate Here Places (Search) API endpoint
-# # for querying POIs that lie within a circle
+# # for querying POIs that lie within 500m radius
 # URL = HerePlacesAPI.in_circle(
 #     lat=37.7942,
 #     lon=-122.4070,
@@ -34,25 +30,19 @@ apiKey = ''
 #     lon=-122.4070,
 #     apiKey=apiKey)
 
-# for querying POIs around the area with specific string match
-URL = HerePlacesAPI.popular(
-    lat=37.7942,
-    lon=-122.4070,
-    category='hotel',
-    apiKey=apiKey)
+# # for querying popular POIs around the area
+# URL = HerePlacesAPI.popular(
+#     lat=37.7942,
+#     lon=-122.4070,
+#     category='hotel',
+#     apiKey=apiKey)
 
-# for querying POIs around the area with specific string match
+# for querying nearby POIs around the area
 URL = HerePlacesAPI.nearby(
     lat=37.7942,
     lon=-122.4070,
     apiKey=apiKey)
 
-# Make HTTP GET request
+# Make HTTP GET request to the URL
 df_items = request_api(URL, apiKey, max_items=100)
 df_items
-
-# %%
-df_items
-
-
-# %%

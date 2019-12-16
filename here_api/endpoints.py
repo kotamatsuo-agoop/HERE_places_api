@@ -84,7 +84,8 @@ class HerePlacesAPI(object):
         dict_of_params = {
             'at': "{},{}".format(lat, lon),
             'cat': category,
-            'apiKey': apiKey
+            'apiKey': apiKey,
+            'size':100
             }
         return cls.__url_maker(endpoint, dict_of_params)
 
@@ -122,7 +123,8 @@ class HerePlacesAPI(object):
         endpoint = 'discover/here'
         dict_of_params = {
             'at': "{},{}".format(lat, lon),
-            'apiKey': apiKey
+            'apiKey': apiKey,
+            'size': 100
             }
         return cls.__url_maker(endpoint, dict_of_params)
 
@@ -151,7 +153,8 @@ class HerePlacesAPI(object):
         dict_of_params = {
             'at': "{},{}".format(lat, lon),
             'apiKey': apiKey,
-            'q': query
+            'q': query,
+            'size': 100
             }
         return cls.__url_maker(endpoint, dict_of_params)
 
@@ -195,7 +198,8 @@ class HerePlacesAPI(object):
                 west_lon, south_lat,
                 east_lon, north_lat
                 ),
-            'apiKey': apiKey
+            'apiKey': apiKey,
+            'size': 100
             }
         return cls.__url_maker(endpoint, dict_of_params)
 
@@ -228,6 +232,7 @@ class HerePlacesAPI(object):
         endpoint = 'discover/explore'
         dict_of_params = {
             'in': "{},{};r={}".format(lat, lon, radius),
-            'apiKey': apiKey
+            'apiKey': apiKey,
+            'size': 100
             }
         return cls.__url_maker(endpoint, dict_of_params)

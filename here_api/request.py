@@ -37,8 +37,10 @@ def request_api(URL, apiKey, max_items):
         # Just for safety
         if len(list_of_dict_of_items) >= max_items:
             break
-
-    df_items = _format_items(list_of_dict_of_items)
+    if list_of_dict_of_items == None:
+        df_items = pd.DataFrame()
+    else:
+        df_items = _format_items(list_of_dict_of_items)
     return df_items
 
 

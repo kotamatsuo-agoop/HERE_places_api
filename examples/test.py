@@ -9,7 +9,7 @@ from here_api import HerePlacesAPI # For generating URLs
 from here_api import request_api # For making HTTP requests using the URLs
 
 # Your API key generated on your account on HERE Developers website
-apiKey = 'hMdkjj5UuV1cTpGY0SLTzsxUmXEdp20rDgorzb6xbhA'
+apiKey = ''
 
 ### Generate Here Places (Search) API endpoint
 # # for querying POIs that lie within a circle

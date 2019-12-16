@@ -1,10 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+### Import modules
 from here_api import HerePlacesAPI # For generating URLs
 from here_api import request_api # For making HTTP requests using the URLs
 
-# Your API key generated on your account on HERE Developers website
+### Define your API key generated on your account on HERE Developers website
 apiKey = ''
 
 ### Generate Here Places (Search) API endpoint

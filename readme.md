@@ -12,7 +12,7 @@ apiKey = 'your_api_key'
 ```
 
 ### 3. Generate Here Places (Search) API endpoint
-if you want to query POIs that lie within 500m radius
+e.g. if you want to query POIs that lie within a certain radius
 ```
 URL = HerePlacesAPI.in_circle(
     lat=37.7942,
@@ -20,7 +20,7 @@ URL = HerePlacesAPI.in_circle(
     radius=500,
     apiKey=apiKey)
 ```
-if you want to query POIs that lie within a bounding box
+e.g. if you want to query POIs that lie within a bounding box
 ```
 URL = HerePlacesAPI.in_box(
     south_lat=37.793,
@@ -29,7 +29,7 @@ URL = HerePlacesAPI.in_box(
     east_lon=-122.4070,
     apiKey=apiKey)
 ```
-if you want to query POIs around the area with specific string match
+e.g. if you want to query POIs around the area with specific string match
 ```
 URL = HerePlacesAPI.query_string(
     query='hotel',
@@ -37,7 +37,7 @@ URL = HerePlacesAPI.query_string(
     lon=-122.4070,
     apiKey=apiKey)
 ```
-if you want to query popular POIs around the area
+e.g. if you want to query popular POIs around the area
 ```
 URL = HerePlacesAPI.popular(
     lat=37.7942,
@@ -45,7 +45,7 @@ URL = HerePlacesAPI.popular(
     category='hotel',
     apiKey=apiKey)
 ```
-if you want to query nearby POIs around the area
+e.g. if you want to query nearby POIs around the area
 ```
 URL = HerePlacesAPI.nearby(
     lat=37.7942,

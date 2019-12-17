@@ -83,15 +83,7 @@ def _format_items(list_of_dict_of_items):
     if len(list_of_dict_of_items) == 0:
         ### If no results
         return pd.DataFrame()
-    elif 'id' in list_of_dict_of_items[0]:
-        ### If the dict is for list of categories
-        list_formatted_items = []
-        for item in list_of_dict_of_items:
-            # Take out values from the dict
-            category_id = item['id']
-            list_formatted_items.append(category_id)
-        return list_formatted_items
-    else:
+    elif all(this in list_of_dict_of_items[0] for this in ['category', 'position', 'vicinity']):
         ### If the dict is for list of POIs
         # Columns to save in the dataframe
         keys = ['title', 'category_id', 'address', 'lat', 'lon', 'distance']
@@ -117,3 +109,11 @@ def _format_items(list_of_dict_of_items):
         # Sort by distance
         df_items.sort_values(by='distance', ascending=True, inplace=True)
         return df_items
+    else:
+        ### If the dict is for list of categories
+        list_formatted_items = []
+        for item in list_of_dict_of_items:
+            # Take out values from the dict
+            category_id = item['id']
+            list_formatted_items.append(category_id)
+        return list_formatted_items

@@ -55,7 +55,24 @@ class HerePlacesAPI(object):
         return url
 
     @classmethod
-    def popular(cls, lat: float, lon: float, apiKey: str, category=''):
+    def get_all_categories(cls, apiKey: str):
+        """Get URL for requesting the full list of all POI categories.
+
+        Args:
+            apiKey (str): API key generated on your account
+                on the HERE Developers Website.
+
+        Returns:
+            str: URL of API endpoint
+        """
+        endpoint = 'categories/places'
+        dict_of_params = {
+            'apiKey': apiKey,
+            }
+        return cls.__url_maker(endpoint, dict_of_params)
+
+    @classmethod
+    def popular(cls, lat: float, lon: float, apiKey: str, category: str=''):
         """Get URL for requesting a list of popular places around a location.
 
         Args:

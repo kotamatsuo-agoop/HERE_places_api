@@ -12,7 +12,7 @@ apiKey = 'your_api_key'
 ```
 
 ### 3. Generate Here Places (Search) API endpoint
-e.g. if you want to query POIs that lie within a certain radius
+e.g. if you want to query POIs that lie within a certain radius (this example is 500m)
 ```
 URL = HerePlacesAPI.in_circle(
     lat=37.7942,

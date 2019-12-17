@@ -227,7 +227,7 @@ class HerePlacesAPI(object):
         return cls.__url_maker(endpoint, dict_of_params)
 
     @classmethod
-    def in_circle(cls, lat: float, lon: float, radius: int, apiKey: str, category: str = '')):
+    def in_circle(cls, lat: float, lon: float, radius: int, apiKey: str, category: str = ''):
         """Get URL for requesting a list of popular places within a circle.
 
         Args:

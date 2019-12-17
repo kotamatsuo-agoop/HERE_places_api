@@ -81,6 +81,8 @@ class HerePlacesAPI(object):
             apiKey (str): API key generated on your account
                 on the HERE Developers Website.
             category (str): POI category.
+                You can get full list using the
+                "get_all_categories" method.
 
         Returns:
             str: URL of API endpoint
@@ -178,7 +180,7 @@ class HerePlacesAPI(object):
     @classmethod
     def in_box(cls, south_lat: float, west_lon: float,
                north_lat: float, east_lon: float,
-               apiKey: str):
+               apiKey: str, category: str = ''):
         """Get URL for requesting a list of places within a bounding box.
 
         Args:
@@ -192,6 +194,9 @@ class HerePlacesAPI(object):
                 of the bounding box to search.
             apiKey (str): API key generated on your account
                 on the HERE Developers Website.
+            category (str): POI category.
+                You can get full list using the
+                "get_all_categories" method.
 
         Returns:
             str: URL of API endpoint
@@ -215,13 +220,14 @@ class HerePlacesAPI(object):
                 west_lon, south_lat,
                 east_lon, north_lat
                 ),
+            'cat': category,
             'apiKey': apiKey,
             'size': 100
             }
         return cls.__url_maker(endpoint, dict_of_params)
 
     @classmethod
-    def in_circle(cls, lat: float, lon: float, radius: int, apiKey: str):
+    def in_circle(cls, lat: float, lon: float, radius: int, apiKey: str, category: str = '')):
         """Get URL for requesting a list of popular places within a circle.
 
         Args:
@@ -230,6 +236,9 @@ class HerePlacesAPI(object):
             radius (float|str): Radius in meters.
             apiKey (str): API key generated on your account
                 on the HERE Developers Website.
+            category (str): POI category.
+                You can get full list using the
+                "get_all_categories" method.
 
         Returns:
             str: URL of API endpoint
@@ -249,6 +258,7 @@ class HerePlacesAPI(object):
         endpoint = 'discover/explore'
         dict_of_params = {
             'in': "{},{};r={}".format(lat, lon, radius),
+            'cat': category,
             'apiKey': apiKey,
             'size': 100
             }

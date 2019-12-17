@@ -81,29 +81,39 @@ def _next_page(results, apiKey):
 def _format_items(list_of_dict_of_items):
     """Format json response into a dataframe"""
     if len(list_of_dict_of_items) == 0:
+        ### If no results
         return pd.DataFrame()
-    # Columns to save in the dataframe
-    keys = ['title', 'category_id', 'address', 'lat', 'lon', 'distance']
-    # Values to save in the dataframe
-    list_formatted_items = []
-    for item in list_of_dict_of_items:
-        # Take out values from the dict
-        category_id = item['category']['id']
-        distance = item['distance']
-        lat = item['position'][0]
-        lon = item['position'][1]
-        title = item['title']
-        address = item['vicinity']
-        # Store in a new dict
-        values = [title, category_id, address, lat, lon, distance]
-        dict_this_item = dict(zip(keys, values))
-        # Store the new dict in list
-        list_formatted_items.append(dict_this_item)
-    # Convert list of dicts into DataFrame
-    df_items = pd.DataFrame().from_dict(list_formatted_items)
-    # Order columns
-    df_items = df_items[keys]
-    # Sort by distance
-    df_items.sort_values(by='distance', ascending=True, inplace=True)
-
-    return df_items
+    elif 'id' in list_of_dict_of_items[0]:
+        ### If the dict is for list of categories
+        list_formatted_items = []
+        for item in list_of_dict_of_items:
+            # Take out values from the dict
+            category_id = item['id']
+            list_formatted_items.append(category_id)
+        return list_formatted_items
+    else:
+        ### If the dict is for list of POIs
+        # Columns to save in the dataframe
+        keys = ['title', 'category_id', 'address', 'lat', 'lon', 'distance']
+        # Values to save in the dataframe
+        list_formatted_items = []
+        for item in list_of_dict_of_items:
+            # Take out values from the dict
+            category_id = item['category']['id']
+            distance = item['distance']
+            lat = item['position'][0]
+            lon = item['position'][1]
+            title = item['title']
+            address = item['vicinity']
+            # Store in a new dict
+            values = [title, category_id, address, lat, lon, distance]
+            dict_this_item = dict(zip(keys, values))
+            # Store the new dict in list
+            list_formatted_items.append(dict_this_item)
+        # Convert list of dicts into DataFrame
+        df_items = pd.DataFrame().from_dict(list_formatted_items)
+        # Order columns
+        df_items = df_items[keys]
+        # Sort by distance
+        df_items.sort_values(by='distance', ascending=True, inplace=True)
+        return df_items
